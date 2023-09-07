@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+div.container {
+    border: 1px solid black;
+    width: 800px;
+    height: 850px;
+    margin: 15px auto;
+    background-color: rgb(215, 240, 73);
+}
+div.panelWithCells {
+    width: 750px;
+    height: 750px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+div.panelWithCells table {
+    width:750px;
+    height: 750px;
+}
+div.panelWithMessages {
+    border: 1px solid brown;
+    width: 750px;
+    height: 40px;
+    margin: 25px auto;
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: darkorange;
+    color: brown;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------- */
+
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.transition {
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.transition:hover {
+    transform: scale(0.8);
+}
